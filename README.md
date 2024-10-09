@@ -1,6 +1,6 @@
-#This is my submission for Assignment 5
-##Devon Borthwick
-###ArcGIS API
+# This is my submission for Assignment 5
+## Devon Borthwick
+### ArcGIS API
 
 My map shows the locations of some of my favorite vacation spots and some places I would like to visit in the future.
 
