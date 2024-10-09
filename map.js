@@ -139,23 +139,9 @@ require([
                     })
                   })
               
-                  const source = [{
-                    layer: graphicsLayer,
-                    name: "Vacation Spots"
-                    
-              
-                   }];
+            
                     const searchWidget = new Search({
                         view: view,
-                        sources: myStuff,
-                        placeholder: "Places",
-                        searchFields: ["placename", "city", "country"],
-                        displayField: "placename",
-                        outFields: ["placename", "city", "country"],
-                        exactMatch: false,
-                        zoomScale: 900,
-                        suggestionsEnabled: true,
-                        minSuggestCharacters: 0
                         
                       });
                       view.ui.add(searchWidget, {
